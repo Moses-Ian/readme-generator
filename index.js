@@ -19,6 +19,31 @@ const questions = [
 				}
       }
 		},
+    {
+      type: 'input',
+      name: 'description',
+      message: 'What is your project description?',
+		},
+    {
+      type: 'input',
+      name: 'installation',
+      message: 'Please enter installation instructions:',
+		},
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'What is your project usage?',
+		},
+    {
+      type: 'input',
+      name: 'contributing',
+      message: 'Please enter contribution instructions:',
+		},
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'What are your project tests?',
+		},
 ];
 
 const promptUser = () => {
