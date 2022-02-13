@@ -58,7 +58,9 @@ ${renderLicenseSection(data.license)}
 
 ## Questions
 
-https://github.com/${data.profile}
+<https://github.com/${data.profile}>
+
+<${data.email}>
 `;
 }
 
