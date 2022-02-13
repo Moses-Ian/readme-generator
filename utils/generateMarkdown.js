@@ -16,27 +16,23 @@ const licenseBadgeDictionary = {
 	'None': '',
 };
 
-
-
-function renderLicenseBadge(license) {
-	return license == 'None' ? '' : licenseBadgeDictionary[license];
-}
-
-function renderLicenseSection(license) {
-	return license == 'None' ? '' : `## License
-
-${licenseDictionary[license]}`;	
-}
-
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
-${renderLicenseBadge(data.license)}
+${licenseBadgeDictionary[data.license]}
 
 ## Description
 
 ${data.description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
 ## Installation
 
@@ -54,7 +50,9 @@ ${data.contributing}
 
 ${data.tests}
 
-${renderLicenseSection(data.license)}
+## License
+
+${licenseDictionary[data.license]}
 
 ## Questions
 

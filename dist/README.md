@@ -6,6 +6,15 @@
 
 1
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
 ## Installation
 
 1
@@ -28,6 +37,6 @@
 
 ## Questions
 
-<https://github.com/Moses-Ian>
+<https://github.com/1>
 
-<imoses2@hotmail.com>
+<1>
