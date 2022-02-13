@@ -50,7 +50,21 @@ const questions = [
       message: 'What license would you like to use?',
       choices: ['MIT License', 'Apache License 2.0', 'BSD License', 'GPL License', 'Mozilla Public License 2.0', 'None'],
 			default: 'None'
-    }
+    },
+    {
+      type: 'input',
+      name: 'profile',
+      message: 'What is your GitHub username? (Required)',
+			validate: input => {
+				if (input) {
+					return true;
+				} else {
+					console.log('Please enter your GitHub username!');
+					return false;
+				}
+      }
+		},
+		
 ];
 
 const promptUser = () => {
