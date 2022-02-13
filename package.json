@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Moses",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moses-Ian/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Moses-Ian/readme-generator/issues"
+  },
+  "homepage": "https://github.com/Moses-Ian/readme-generator#readme"
+}
