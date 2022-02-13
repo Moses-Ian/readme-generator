@@ -44,6 +44,13 @@ const questions = [
       name: 'tests',
       message: 'What are your project tests?',
 		},
+    {
+      type: 'list',
+      name: 'license',
+      message: 'What license would you like to use?',
+      choices: ['MIT License', 'Apache License 2.0', 'BSD License', 'GPL License', 'Mozilla Public License 2.0', 'None'],
+			default: 'None'
+    }
 ];
 
 const promptUser = () => {

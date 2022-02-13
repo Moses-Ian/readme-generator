@@ -1,21 +1,27 @@
 # Readme Generator
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## Description
 
-generates readmes
+1
 
 ## Installation
 
-npm install readme-generator
+1
 
 ## Usage
 
-fuckin use it
+1
 
 ## Contributing
 
-don't
+1
 
 ## Tests
 
-none
+1
+
+## License
+
+[Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
