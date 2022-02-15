@@ -8,14 +8,14 @@ This program will generate a high quality, professional readme based on your inp
 
 Follow this video:
 
-[video]
+[video](https://watch.screencastify.com/v/5Hu7PveegPAgCtWEvt1n)
 
 1. Clone the repository
 2. From the command line, navigate to the repository directory
 3. Run:
-		npm init
+	```npm init```
 4. Run:
-		node index
+	```node index```
 5. Answer the questions
 6. Your README.md file will be output in the /dist folder
 7. Copy this file to your project.
